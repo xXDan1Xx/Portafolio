@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Contenedor de la barr de modo y redes */
+.anouncement-bar{
+    display: flex;
+    justify-content:center;
+    padding: 1em;
+}
+/* Opciones de color claro y obscuro */
+.mode-bar{
+    display: flex;
+    padding: 2px;
+    border: solid 1px #000000;
+    border-radius: 10px;
+    list-style-type: none;
+}
+.opt-mode{
+    text-decoration: none;
+    padding:0 10px;
+}
+/* Opciones de medios de contacto linkendin, git y whats */
+.contact-bar{
+    display: flex;
+    padding: 2px;
+    list-style: none;
+}
+.opt-contact{
+    margin: 0 10px;
+    padding: 0 10px;
+    border: solid 1px #000000;
+    border-radius: 10px;
+}
+.main-menu{
+    position: fixed;
+    left: 0;
+    height: 80vh;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+}
+.nav-list{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0px;
+}
+main{
+    background-color: #fff;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+   /* Estilos personalizados */
+   .navbar-vertical {
+    background:none;
+    position: fixed; /* Fija la barra de navegación */
+    top: 0;
+    left: 0;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar-vertical .nav-link {
+    color: #000000; /* Color del texto */
+    font-size: 14px; /* Tamaño del texto */
+    padding: 5px 0px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column; /* Coloca el ícono y el texto en columna */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+    text-decoration: none;
+}
+
+.navbar-vertical .nav-link:hover{
+    color: #fe655c;
+}
+
+/* Ajuste del contenido principal */
+main {
+    margin-left: 15%;
+    justify-items: center; /* Margen izquierdo igual al ancho de la barra de navegación */
+    padding: 20px; /* Espaciado interno */
+}
